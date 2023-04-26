@@ -9,6 +9,7 @@
 :root{
     --dark-background-color:#1F2937;
     --section-background-color: #E5E7EB;
+    --bottom-background-color:#3882F6;
 }
 
 body {
@@ -52,7 +53,7 @@ header nav a{
     flex-direction: column;
 }
 .welcome-text button{
-    background-color: #3882F6;
+    background-color:var(--bottom-background-color);
     border-radius: 5px;
     border:0;
     color: white;
@@ -66,7 +67,7 @@ header nav a{
 .welcome-section img{
     width: 40rem;
     height: 20rem;
-    padding: 3rem;
+    padding: 5rem;
 }
 section h2{
     text-align: center;
@@ -112,11 +113,11 @@ section h2{
 }
 
 .box-container{
-    background-color:#3882F6;
+    background-color:var(--bottom-background-color);
     color: white;
     /* padding: 1.5em; */
     padding: 10px 10px;
-    margin:50px 100px;
+    margin:auto;
     box-shadow: 0 4px 10px rgba(0,0,0,.3);
     border-radius: 5px;
     width: 70%;
@@ -132,7 +133,7 @@ section h2{
 } */
 
 .box-container button{
-    background-color: #3882F6;
+    background-color: var(--bottom-background-color);
     border-radius: 5px;
     border-color: white;
     color: white;
@@ -143,10 +144,44 @@ section h2{
     cursor: pointer;
 }
 .credit{
-    background-color: #1F2937;
+    background-color: var(--dark-background-color);
     color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
+}
+ main-contact h1{
+    text-align: center;
+}
+main-contact h4{
+padding: 2rem 10rem 2rem 10rem;
+text-align: center;
+    
+}
+.singup-form{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    flex-direction: column;
+    padding: 2rem 10rem 2rem 10rem;
+    text-align: center;
+}
+.singup-form input{
+    padding: 1rem;
+    margin: 0.4rem;
+    border: 2px solid var(--bottom-background-color) ;
+    border-radius: 10px;
+    
+}
+.singup-form a button{
+    background-color: var(--bottom-background-color);
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
