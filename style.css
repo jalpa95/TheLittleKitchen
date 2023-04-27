@@ -28,6 +28,10 @@ header img{
     height: 7rem;
     
 }
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+}
 header nav a{
     color: var(--section-background-color);
     font-size: 18px;
