@@ -198,3 +198,30 @@ text-align: center;
     margin: 4px 2px;
     cursor: pointer;
 }
+.about-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.about-section img{
+    height: 25rem;
+    width: 25rem;
+    margin: 1rem;
+    margin-left: 2rem;
+    flex:1;
+}
+.about-section p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    flex:1.5;
+    text-align: justify;
+    line-height: 1.35rem;
+}
+.about-us
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
