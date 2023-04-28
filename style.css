@@ -221,6 +221,59 @@ text-align: center;
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Contact style */
+
+.contact-location{
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.contact h1{
+    text-align: center;
+    line-height: 1.35rem;
+    margin-top: 3rem;
+}
+.contact-form {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    padding: 2rem ;
+    text-align: center;
+}
+.contact-form input{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--bottom-background-color) ;
+    border-radius: 10px;
+    text-align: center;
+    width: 23rem;
+}
+.contact-form textarea{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--bottom-background-color) ;
+    border-radius: 10px;
+    text-align: center;
+}
+.contact-form a button{
+    background-color: var(--bottom-background-color);
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.location img{
+    margin: auto;
+    padding: 0px;
+    width: 18rem;
+}
+/* Contact style */
 .about-section{
     display: flex;
     flex-direction: column;
@@ -281,6 +334,14 @@ text-align: center;
     text-align: justify;
     font-size: 0.8rem;
 }
+/* Contact style */
+.contact-location{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+}
+/* Contact style */
 }
 
 @media screen and (max-width: 425px){
@@ -322,5 +383,17 @@ header nav {
 .singup-form a button{
     width: 8rem;
 }
+
+/* Contact style */
+.contact-location{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.contact-form a button{
+    width: 8rem;
+}
+/* Contact style */
 
 }
