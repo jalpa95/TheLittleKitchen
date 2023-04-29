@@ -23,10 +23,11 @@ header{
     justify-content: space-between;
     padding : 2% 7% 0.5% 7%;
     background-color: var(--dark-background-color);
+    position: sticky;
+    top : 0;
 }
 header img{
-    height: 5.5rem;
-    
+    height: 5.5rem; 
 }
 header nav{
     display: flex;
@@ -68,9 +69,7 @@ header nav a{
     padding: 0.5rem;
     margin: 1.5rem;
     cursor: pointer;
-
 }
-
 .welcome-text button a{
     color: white;
     text-align: center;
@@ -85,7 +84,6 @@ header nav a{
     border: 1px solid var(--section-background-color);
     border-radius: 5px;
 }
-
 section h2{
     text-align: center;
 }
@@ -96,7 +94,6 @@ section h2{
     justify-content: center;
     width: 100%;
 }
-
 .submenu{
     display: flex;
     flex-direction: column;
@@ -131,10 +128,8 @@ section h2{
 }
 .footer{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
-
 .box-container{
     background-color:var(--bottom-background-color);
     color: white;
@@ -149,12 +144,6 @@ section h2{
     justify-content: space-around; 
     align-items: center;  
 }
-
-/* .box{
-    display: inline;
-   
-} */
-
 .box-container button{
     background-color: var(--bottom-background-color);
     border-radius: 5px;
@@ -168,7 +157,6 @@ section h2{
     margin: 1.5rem;
     cursor: pointer;
 }
-
 .box-container button a{
     color: white;
     text-decoration: none;
@@ -181,15 +169,6 @@ section h2{
     align-items: center;
     height: 60px;
 }
- main-contact h1{
-    text-align: center;
-}
-main-contact h4{
-padding: 2rem 10rem 2rem 10rem;
-text-align: center;
-    
-}
-
 .main-signup{
     margin: 0 5rem;
 }
@@ -216,7 +195,6 @@ text-align: center;
     border-radius: 10px;
     text-align: center;
     width: 18.5rem;
-    
 }
 .singup-form a button{
     background-color: var(--bottom-background-color);
@@ -229,9 +207,7 @@ text-align: center;
     text-decoration: none;
     cursor: pointer;
 }
-
-/* Contact style */
-
+/* Contact Page style */
 .contact-location{
     margin: 0 3rem;
     display: flex;
@@ -281,7 +257,7 @@ text-align: center;
     padding: 0px;
     width: 18rem;
 }
-/* Contact style */
+/* About Page style */
 .about-section{
     display: flex;
     flex-direction: column;
@@ -290,11 +266,11 @@ text-align: center;
 }
 .about-section img{
     height: 33rem;
-    width: 25rem;
+    width: 22rem;
     flex:1;
 }
 .about-section p{
-    margin-left: 5rem;
+    margin: 2rem;
     flex:1.5;
     text-align: justify;
     line-height: 1.35rem;
@@ -308,7 +284,7 @@ text-align: center;
 }
 
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 769px)
 {
     .box-container button
     {
@@ -353,7 +329,7 @@ text-align: center;
 /* Contact style */
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 427px){
 header{
     display: flex;
     flex-direction: column;
